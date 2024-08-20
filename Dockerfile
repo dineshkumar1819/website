@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy HTML and CSS files to the Nginx directory
-COPY /root/website/index.html  /usr/share/nginx/html/
+COPY index.html  /usr/share/nginx/html/
 
 # Expose port 80 for the web server
 EXPOSE 80
